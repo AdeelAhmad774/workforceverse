@@ -1,0 +1,103 @@
+.nav-1{
+  margin: 15px 60px ;
+  
+
+font-size: 20px;
+
+width: 60%;
+justify-content: space-evenly;
+
+}
+.btn-1{
+  margin-top: 10px;
+  display: flex;
+  width: 200px;
+  justify-content: space-between;
+}
+
+
+
+
+@media (max-width: 1140px) {
+  .container img{
+    margin-bottom: 5%;
+  }
+.ali{
+  display: flex;
+  flex-flow: wrap;
+ 
+}
+.btn-1{
+  display: flex;
+margin-left: 35%;
+
+
+
+justify-content: space-between;
+}
+
+}
+@media (max-width: 991.5px) {
+  .ali{
+    display:grid;
+    
+    height: auto;
+  }
+  .btn-1{
+    
+    display: flex;
+    flex-direction: column;
+   
+   height: 85%;
+   margin-top: 4%;
+    margin-left: 8%;
+    
+
+    justify-content: space-between;
+   
+    }
+    .btn-1 .btn1{
+      text-align: start;
+      width: 35%;
+    }
+    .btn-1 .btn2{
+      text-align: start;
+      width: 65%;
+    }
+}
+
+.helo1{
+
+  display: flex;
+  margin-top: 10%;
+  
+}
+.helo2{
+ 
+  width: 50%;
+  
+}
+.h123{
+ margin-left: 20%;
+}
+.contain1{
+  border-radius: 10px;
+  margin-top: 10px;
+  display: flex;
+  width: 100%;
+  gap: 4%;
+  padding-top: 8%;
+  padding-bottom: 8%;
+  background-color: #edeff1;
+ align-items: center;
+padding-left: 3%;
+}
+
+.second{
+
+  display: flex;
+  flex-direction: column;
+  
+  width: 30%;
+ text-align: center;
+}
